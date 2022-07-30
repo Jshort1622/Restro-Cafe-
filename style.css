@@ -15,17 +15,17 @@ header{
     position: absolute;
     left: 20%;
     top: 60%;
-    font-size: 80px;
+    font-size: 4vw;
 }
 
 h1.good_food {
     position: absolute;
     bottom: 60%;
     color: coral;
-    font-size: larger;
+    font-size: 4vw;
 }
 p.genuine {
-    font-size: larger;
+    font-size: 4vw;
 }
 .img_headerone{
     width: 13%;
@@ -129,4 +129,11 @@ p.reviews {
 }
 .menu_item .item .heartdiv img {
     width: 2vw;
+}
+footer {
+    text-align: center;
+}
+
+.review_links a {
+    text-decoration: none;
 }
