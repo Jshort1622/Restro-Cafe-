@@ -5,6 +5,7 @@
 .menu {
     display: grid;
     grid-template-columns: auto auto auto;
+    gap: 3%;
 }
 header{
     margin-bottom: 2%;
@@ -80,11 +81,12 @@ p.genuine {
 }
 
 .heart {
-    margin-right: 2%
+    margin-right: 2%;
+    width: 2vw;
 }
 .review_links {
     display: flex;
-    justify-content: space-around;
+    gap: 3%;
 }
 p.our {
     color: coral;
@@ -110,12 +112,21 @@ p.try {
 }
 .cart {
     display: flex;
-    justify-content: space-between;
+    gap: 3%;
 }
 p.reviews {
     color: grey;
     font-size: 20px;
 }
 .menu_item {
-    border: 1px solid grey;
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+      
+}
+.menu_item .item img {
+    width: 100%;
+}
+.menu_item .item .heartdiv img {
+    width: 2vw;
 }
