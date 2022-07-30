@@ -129,6 +129,7 @@ p.reviews {
 }
 .menu_item .item .heartdiv img {
     width: 2vw;
+    margin: 15px;
 }
 footer {
     text-align: center;
@@ -136,4 +137,9 @@ footer {
 
 .review_links a {
     text-decoration: none;
+}
+
+.cart p {
+    color: coral;
+    font-size: 30px;
 }
